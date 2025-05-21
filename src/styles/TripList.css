@@ -1,0 +1,31 @@
+.trip_list {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.trip_table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.trip_table th,
+.trip_table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.trip_table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.trip_table td {
+  background-color: #fff;
+}
+
+.trip_table img {
+  object-fit: cover;
+}

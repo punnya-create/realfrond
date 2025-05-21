@@ -1,0 +1,59 @@
+/* Breakpoint: sm (max-width: 480px) */
+@media (max-width: 480px) {
+    /* Add styles for small screens here */
+  }
+  
+  /* Breakpoint: mm (max-width: 580px) */
+  @media (max-width: 580px) {
+    /* Add styles for medium-mobile screens here */
+  }
+  
+  /* Breakpoint: md (max-width: 720px) */
+  @media (max-width: 720px) {
+    /* Add styles for medium screens here */
+  }
+  
+  /* Breakpoint: ml (max-width: 820px) */
+  @media (max-width: 820px) {
+    /* Add styles for medium-large screens here */
+  }
+  
+  /* Breakpoint: lg (max-width: 1000px) */
+  @media (max-width: 1000px) {
+    /* Add styles for large screens here */
+  }
+  
+  /* Breakpoint: xl (max-width: 1120px) */
+  @media (max-width: 1120px) {
+    /* Add styles for extra-large screens here */
+  }
+  
+  /* Small breakpoint: max-width 480px */
+@media (max-width: 480px) {
+    /* Add styles for small screens here */
+  }
+  
+  /* Medium-mobile breakpoint: max-width 580px */
+  @media (max-width: 580px) {
+    /* Add styles for medium-mobile screens here */
+  }
+  
+  /* Medium breakpoint: max-width 720px */
+  @media (max-width: 720px) {
+    /* Add styles for medium screens here */
+  }
+  
+  /* Medium-large breakpoint: max-width 820px */
+  @media (max-width: 820px) {
+    /* Add styles for medium-large screens here */
+  }
+  
+  /* Large breakpoint: max-width 1000px */
+  @media (max-width: 1000px) {
+    /* Add styles for large screens here */
+  }
+  
+  /* Extra-large breakpoint: max-width 1120px */
+  @media (max-width: 1120px) {
+    /* Add styles for extra-large screens here */
+  }

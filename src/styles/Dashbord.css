@@ -1,0 +1,16 @@
+@import "./breakpoints.css";
+@import "./variables.css";
+.sidebar{
+    text-decoration: none;
+    border: 1px solid white;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 10px;
+
+}
+
+.sidebar:hover{
+    background-color: rgba(240, 248, 255, 0.771);
+}
+
