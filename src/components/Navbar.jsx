@@ -24,7 +24,6 @@ const Navbar = () => {
         <img src="/assets/logo.png" alt="logo" />
       </a>
       <div>
-        <Link to={`/${user._id}/properties`} className="me-4 text-dark" style={{textDecoration:"none"}}>Property List</Link>
      <Link to="/about" className="me-4 text-dark " style={{textDecoration:"none"}}>About </Link>
       <Link to="/contact" className="me-4 text-dark" style={{textDecoration:"none"}}>Contact</Link>
       
@@ -52,6 +51,14 @@ const Navbar = () => {
         {dropdownMenu && user && (
           <div className="navbar_right_accountmenu">
              <Link to={`/${user._id}/trips`}>Trip List</Link>
+             <Link
+              key="property-list"
+              to={user?._id ? `/${user._id}/properties` : "/login"}
+              className="me-4 text-dark"
+              style={{ textDecoration: "none" }}
+            >
+              Property List
+            </Link>
              <Link to={'/profile'}>Profile  </Link>
             <Link to={`/${user._id}/wishList`}>Wish List</Link>
             <Link
